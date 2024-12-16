@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "617720080464",
+    "firebase_url": "https://firealarm-iot-3cc88-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "firealarm-iot-3cc88",
+    "storage_bucket": "firealarm-iot-3cc88.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:617720080464:android:64f1c8238889af958e8955",
+        "android_client_info": {
+          "package_name": "com.example.firealarm_iot"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGIu6ZWulShGtfJEY6-ae7_sOKd8Bh3pE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

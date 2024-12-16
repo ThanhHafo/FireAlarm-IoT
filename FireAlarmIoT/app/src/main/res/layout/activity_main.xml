@@ -1,0 +1,119 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Báo cáo môi trường"
+        android:background="#00BFFF"
+        android:textSize="35sp"
+        android:textColor="	#FFFF00"
+        android:gravity="center"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/sensorData"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:layout_margin="10dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/current_icon" />
+
+        <ImageView
+            android:id="@+id/historyData"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:layout_margin="10dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/history_icon" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:adjustViewBounds="true"
+            android:layout_margin="10dp"
+            android:scaleType="centerInside"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Thời gian hiện tại"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:adjustViewBounds="true"
+            android:layout_margin="10dp"
+            android:scaleType="centerInside"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Lịch sử"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/state"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:layout_margin="10dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/control_icon" />
+
+        <ImageView
+            android:id="@+id/dataAnalysis"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:layout_margin="10dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/statistics_icon" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:adjustViewBounds="true"
+            android:layout_margin="10dp"
+            android:scaleType="centerInside"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Điều khiển"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:adjustViewBounds="true"
+            android:layout_margin="10dp"
+            android:scaleType="centerInside"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Thống kê"/>
+    </LinearLayout>
+</LinearLayout>
